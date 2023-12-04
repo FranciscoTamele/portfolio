@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap main styles -->
 	<link rel="stylesheet" href="assets/css/johndoe.css">
+    <style>
+        #resume{
+            padding-bottom: 1px;
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <header class="header">
@@ -42,9 +47,6 @@
                     <li class="nav-item">
                         <a href="#about" class="nav-link">Sobre</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link">Resumo</a>
-                    </li>
                 </ul>
                 <ul class="navbar-nav brand">
                     <img src="assets/imgs/avatar.jpeg" alt="" class="brand-img">
@@ -55,11 +57,14 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resumo</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Projectos</a>
                     </li>
-                    <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contactos</a>
-                    </li>
+<!--                    <li class="nav-item last-item">-->
+<!--                        <a href="#contact" class="nav-link">Contactos</a>-->
+<!--                    </li>-->
                 </ul>
             </div>
         </div>
@@ -117,90 +122,179 @@
     <!--Resume Section-->
     <section class="section" id="resume">
         <div class="container">
-            <h2 class="mb-5"><span class="text-danger">Resumo</span></h2>
+            <h2 class="mb-3"><span class="text-danger">Resumo</span></h2>
+            <h4 class="mb-3">Experiência</h4>
             <div class="row">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-4">
                     <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Experiência</h4>
-                                <span class="line"></span>
-                            </div>
-                        </div>
                         <div class="card-body">
                             <h6 class="title text-danger">2023 : App Kutiva</h6>
-                            <P>Front-End Developer</P>
-                            <P class="subtitle">Idealizou, desenvolveu e lançou na playstore um aplicativo android em React-Native com nome Kutiva que visa ajudar os estudantes na sua preparação para exames do ensino secundário e admissão ao ensino superior, o aplicativo permite baixar exames e testar o nivél de preparação com quiz.</P>
-                            <div style="display:flex;flex-direction: row;justify-content: space-evenly">
-                                <a style="display: inline-block" href="https://www.figma.com/file/Fm8rrlS7tYjbxUIK5G14Dz/Kutiva?type=design&node-id=0%3A1&mode=design&t=fxzTD2pa7f20I38H-1">Prototipos</a>
-                                <a style="display: inline-block" href="https://play.google.com/store/apps/details?id=com.kutiva">Baixar na  Playstore</a>
+                            <P class="subtitle">Idealizou, desenvolveu e lançou na playstore um aplicativo android com nome Kutiva que visa ajudar os estudantes na sua preparação para exames do ensino secundário e admissão ao ensino superior, o aplicativo permite baixar exames e testar o nivél de preparação com quiz.</P>
+                            <div>
+                                <h6 style="color: black" class="mt-2">Principais Tecnologias Usadas</h6>
+                                <ul>
+                                    <li><b>React-Native</b></li>
+                                    <li>Figma(<a style="display: inline-block" href="https://www.figma.com/file/Fm8rrlS7tYjbxUIK5G14Dz/Kutiva?type=design&node-id=0%3A1&mode=design&t=fxzTD2pa7f20I38H-1">Prototipos</a>)</li>
+                                    <li>Adobe XD</li>
+                                    <li>React Navigation</li>
+                                    <li>Redux</li>
+                                    <li>React Native Paper</li>
+                                    <li>Styled Components</li>
+                                    <li>Axios</li>
+                                </ul>
                             </div>
-                            <hr>
-                            <h6 class="title text-danger">2021: App MozTa</h6>
-                            <P>FullStack Developer</P>
-                            <P class="subtitle">Idealizou e desenvolveu um aplicativo android em React-Native com nome MozTa que possibilita os usuários fazer compra de váriados tipos de produtos pela plataforma, tendo implementado o pagamento via carteira movél M-Pesa.</P>
-                            <hr>
-                            <h6 class="title text-danger">Outros</h6>
-                            <P>UX Designer</P>
-                            <P class="subtitle">Desenvolveu vários outros aplicativos, que apresenta o layout na secção de Portfólio</P>
+                                <div style="background: #5c2229;width: 100%;display:flex;justify-content: center;flex-direction: row;padding: 3px;border-radius: 3px">
+                                    <a style="display: inline-block;color: white" href="https://play.google.com/store/apps/details?id=com.kutiva">Baixar na  Playstore</a>
+                                </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-4">
                     <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Formação Académica</h4>
-                                <span class="line"></span>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2022 : App MIPV</h6>
+                            <P class="subtitle">
+                                Desenvolveu uma aplicação android para congregação religiosa que gerencia fiéis, eventos e oferece a funcionalidade de assistir e escutar mensagens diretamente pela plataforma. Assim a organizção mantém o registro dos membros da congregação, mantendo suas informações atualizadas e também os fieis ficam actualizados daquilo que é agenda da organização.  A aplicação está disponivél em Português e Inglês.</P>
+                            <div>
+                                <h6 style="color: black" class="mt-2">Principais Tecnologias Usadas</h6>
+                                <ul>
+                                    <li><b>React-Native</b></li>
+                                    <li>I18next</li>
+                                    <li>React Native Video</li>
+                                    <li>React Native Track Player</li>
+                                    <li>Outros(<u><i>Todos usados na app Kutiva</i></u>)</li>
+                                </ul>
+                            </div>
+                            <div style="background: #5c2229;width: 100%;display:flex;justify-content: center;flex-direction: row;padding: 3px;border-radius: 3px">
+                                <a style="display: inline-block;color: white" href="https://play.google.com/store/apps/details?id=com.kutiva">Baixar na  Playstore</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="title text-danger">2021 : API RestFull NodeJS</h6>
+                            <P class="subtitle">Desenvolveu uma API RESTful usando Node.js que alimenta um aplicativo, fornecendo informações essenciais, como usuários cadastrados, eventos da organização religiosa e conteúdos em áudio e vídeo. Essa solução garante uma comunicação eficiente entre a API e o aplicativo, oferecendo dados atualizados e uma experiência fluida para os usuários.</P>
+                            <div>
+                                <h6 style="color: black" class="mt-2">Principais Tecnologias Usadas</h6>
+                                <ul>
+                                    <li><b>ModeJs</b></li>
+                                    <li><b>Express</b></li>
+                                    <li>NodeMailer</li>
+                                    <li>Google Api's</li>
+                                    <li>Pg Promisse</li>
+                                </ul>
+                            </div>
+                            <div style="background: #929292;width: 100%;display:flex;justify-content: center;flex-direction: row;padding: 3px 5px;border-radius: 3px">
+                                <a style="color: black;text-align: center" href="#">Disponível para apresentação presencial do projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="title text-danger">2021 : MozTa Desktop</h6>
+                            <P class="subtitle">Desenvolveu um programa em Java para gerenciar conteúdo em um aplicativo de compras online, abrangendo controle de estoque, acompanhamento de vendas e geração de relatórios em PDF. Essa solução integra eficientemente as operações, fornecendo insights valiosos para análise de desempenho e impulsionando o crescimento do negócio. O programa esta disponivél em português e Inglês.</P>
+                            <div>
+                                <h6 style="color: black" class="mt-2">Principais Tecnologias Usadas</h6>
+                                <ul>
+                                    <li><b>Java</b></li>
+                                    <li><b>JavaFx</b></li>
+                                    <li>Http Client</li>
+                                    <li>PdfText</li>
+                                </ul>
+                            </div>
+                            <div style="background: #929292;width: 100%;display:flex;justify-content: center;flex-direction: row;padding: 3px 5px;border-radius: 3px">
+                                <a style="color: black;text-align: center" href="#">Disponível para apresentação presencial do projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="title text-danger">2021 : App MozTa</h6>
+                            <P class="subtitle">Desenvolveu em Java para android uma aplicação para compras online que reúne diversas lojas, oferecendo uma ampla variedade de produtos. Destaca-se pelo método de pagamento conveniente através da carteira móvel M-Pesa, proporcionando aos usuários uma experiência integrada e eficiente de compras.</P>
+                            <div>
+                                <h6 style="color: black" class="mt-2">Principais Tecnologias Usadas</h6>
+                                <ul>
+                                    <li><b>Android Studio</b></li>
+                                    <li><b>Java</b></li>
+                                    <li>Material Design II</li>
+                                </ul>
+                            </div>
+                            <div style="background: #929292;width: 100%;display:flex;justify-content: center;flex-direction: row;padding: 3px 5px;border-radius: 3px">
+                                <a style="color: black;text-align: center" href="#">Disponível para apresentação presencial do projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="title text-danger">2020 : API RestFull(PHP)</h6>
+                            <P class="subtitle">
+                                Desenvolveu uma API RESTful em PHP que oferece recursos abrangentes para o gerenciamento de produtos e pagamentos online. Essa solução, consumida por dois softwares (um para dispositivos móveis e outro para desktop), proporciona uma integração eficiente, permitindo fácil manipulação de dados de produtos e facilitando transações seguras pela web..</P>
+                            <div>
+                                <h6 style="color: black" class="mt-2">Principais Tecnologias Usadas</h6>
+                                <ul>
+                                    <li><b>PHP</b></li>
+                                    <li><b>Composer</b></li>
+                                    <li>PHP Mailer</li>
+                                    <li>Mpesa Api(<i><u>Pagamentos M-Pesa</u></i>)</li>
+                                    <li>Twilio</li>
+                                    <li>Google Api/Client</li>
+                                </ul>
+                            </div>
+                            <div style="background: #929292;width: 100%;display:flex;justify-content: center;flex-direction: row;padding: 3px 5px;border-radius: 3px">
+                                <a style="color: black;text-align: center" href="#">Disponível para apresentação presencial do projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <h4 class="mb-3">Formação Académica</h4>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
                         <div class="card-body">
                             <h6 class="title text-danger">Presente</h6>
                             <P>3º Ano Engenharia Informática</P>
                             <P class="subtitle" >Universidade Eduardo Mondlane</P>
-                            <hr>
-                            <h6 class="title text-danger">2023</h6>
-                            <P>Curso de Java Online</P>
-                            <P class="subtitle">RocketSeat</P>
-                            <hr>
-                            <h6 class="title text-danger">2018</h6>
-                            <P>CCNA Routing And Switching 200-125</P>
-                            <P class="subtitle">Brainstorm Academy</P>
-
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Idiomas</h4>
-                                <span class="line"></span>
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                            <h6>Português</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Inglês</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Francês</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Programas</h4>
-                                <span class="line"></span>
-                            </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2018</h6>
+                            <P>CCNA Routing And Switching 200-125</P>
+                            <P class="subtitle">Brainstorm Academy</P>
                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="title text-danger">2018</h6>
+                            <P>CCNA Routing And Switching 200-125</P>
+                            <P class="subtitle">Brainstorm Academy</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="mb-3">Aptidões</h4>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
                         <div class="card-body pb-2">
+                            <h6 class="title text-danger">Programas</h6>
                             <h6>AdobeXD</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -223,14 +317,11 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-4">
                     <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Ferramentas</h4>
-                                <span class="line"></span>
-                            </div>
-                        </div>
                         <div class="card-body pb-2">
+                            <h6 class="title text-danger">Ferramentas</h6>
                             <h6>React-Native</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -250,6 +341,25 @@
                             <h6>SpringBoot</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body pb-2">
+                            <h6 class="title text-danger">Idiomas</h6>
+                            <h6>Português</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Inglês</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Francês</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -281,37 +391,37 @@
                     <div class="col-md-6 col-lg-4 church">
                         <div class="portfolio-item">
                             <img src="assets/imgs/church/1.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/church/1.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Autenticação</h6>
-                                    <p class="subtitle">Tela de autenticação do usuário feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/church/1.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Autenticação</h6>-->
+<!--                                    <p class="subtitle">Tela de autenticação do usuário feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 church">
                         <div class="portfolio-item">
                             <img src="assets/imgs/church/2.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/church/2.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Perfil do Usuário</h6>
-                                    <p class="subtitle">Tela de informações do usuário feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/church/2.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Perfil do Usuário</h6>-->
+<!--                                    <p class="subtitle">Tela de informações do usuário feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 church">
                         <div class="portfolio-item">
                             <img src="assets/imgs/church/3.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/church/3.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Criar Conta</h6>
-                                    <p class="subtitle">Tela de criação de conta do usuário feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/church/3.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Criar Conta</h6>-->
+<!--                                    <p class="subtitle">Tela de criação de conta do usuário feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
 
@@ -319,37 +429,37 @@
                     <div class="col-md-6 col-lg-4 new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/kutiva/1.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/kutiva/1.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Carregando dados iniciais</h6>
-                                    <p class="subtitle">Tela de Preload feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/kutiva/1.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Carregando dados iniciais</h6>-->
+<!--                                    <p class="subtitle">Tela de Preload feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/kutiva/2.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/kutiva/2.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Skeleton</h6>
-                                    <p class="subtitle">Tela Home carregando dados inicias feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/kutiva/2.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Skeleton</h6>-->
+<!--                                    <p class="subtitle">Tela Home carregando dados inicias feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/kutiva/3.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/kutiva/3.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Partilhar Exames</h6>
-                                    <p class="subtitle">Tela de partilha de exames feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/kutiva/3.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Partilhar Exames</h6>-->
+<!--                                    <p class="subtitle">Tela de partilha de exames feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
 
@@ -357,37 +467,37 @@
                     <div class="col-md-6 col-lg-4 mozta">
                         <div class="portfolio-item">
                             <img src="assets/imgs/mozta/1.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/mozta/1.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Autenticação</h6>
-                                    <p class="subtitle">Tela de autenticação do usuário feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/mozta/1.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Autenticação</h6>-->
+<!--                                    <p class="subtitle">Tela de autenticação do usuário feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mozta">
                         <div class="portfolio-item">
                             <img src="assets/imgs/mozta/2.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/mozta/2.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Criar Conta</h6>
-                                    <p class="subtitle">Tela de criação de conta do usuário feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/mozta/2.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Criar Conta</h6>-->
+<!--                                    <p class="subtitle">Tela de criação de conta do usuário feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mozta">
                         <div class="portfolio-item">
                             <img src="assets/imgs/mozta/3.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/mozta/3.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Modal Info</h6>
-                                    <p class="subtitle">Tela Modal mostrando informação feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/mozta/3.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Modal Info</h6>-->
+<!--                                    <p class="subtitle">Tela Modal mostrando informação feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
 
@@ -395,37 +505,37 @@
                     <div class="col-md-6 col-lg-4 izicar">
                         <div class="portfolio-item">
                             <img src="assets/imgs/izicar/1.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/izicar/1.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Home</h6>
-                                    <p class="subtitle">Tela de Home feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/izicar/1.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Home</h6>-->
+<!--                                    <p class="subtitle">Tela de Home feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 izicar">
                         <div class="portfolio-item">
                             <img src="assets/imgs/izicar/2.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/izicar/2.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Home com Modal</h6>
-                                    <p class="subtitle">Tela Home com confirmação para sair da conta em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/izicar/2.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Home com Modal</h6>-->
+<!--                                    <p class="subtitle">Tela Home com confirmação para sair da conta em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 izicar">
-                        <div class="portfolio-item">
+                        <div class="portfolio-ite align-content-center">
                             <img src="assets/imgs/izicar/3.PNG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/izicar/3.PNG"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Layout Carro Info</h6>
-                                    <p class="subtitle">Tela carro informações feita em React-Native</p>
-                                </div>
-                            </div>
+<!--                            <div class="content-holder">-->
+<!--                                <a class="img-popup" href="assets/imgs/izicar/3.PNG"></a>-->
+<!--                                <div class="text-holder">-->
+<!--                                    <h6 class="title">Layout Carro Info</h6>-->
+<!--                                    <p class="subtitle">Tela carro informações feita em React-Native</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
 
@@ -433,53 +543,50 @@
             </div>
         </div>
     </section>
-
-
     <!-- End of portfolio section -->
+<!--    <div class="section contact" id="contact">-->
+<!--        <div class="container">-->
+<!--            <h1 class="mt-3"><span class="text-danger">Contactos</span> </h1>-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12">-->
+<!--                    <div class="contact-info-card">-->
+<!--                        <div class="row mb-2">-->
+<!--                            <div class="col-1 pt-1 mr-1">-->
+<!--                                <i class="ti-mobile icon-md"></i>-->
+<!--                            </div>-->
+<!--                            <div class="col-10 ">-->
+<!--                                <h6 class="d-inline">Telefone : <br> <span class="text-muted">+258 84 5857 656</span></h6>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="row mb-2">-->
+<!--                            <div class="col-1 pt-1 mr-1">-->
+<!--                                <i class="ti-map-alt icon-md"></i>-->
+<!--                            </div>-->
+<!--                            <div class="col-10">-->
+<!--                                <h6 class="d-inline">Endereço :<br> <span class="text-muted">Av. Milagre Mabote, Maxaquene "A".</span></h6>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="row mb-2">-->
+<!--                            <div class="col-1 pt-1 mr-1">-->
+<!--                                <i class="ti-envelope icon-md"></i>-->
+<!--                            </div>-->
+<!--                            <div class="col-10">-->
+<!--                                <h6 class="d-inline">Email :<br> <span class="text-muted">franciscotamelle@gmail.com</span></h6>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <ul class="social-icons pt-4">-->
+<!--                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>-->
+<!--                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>-->
+<!--                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>-->
+<!--                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>-->
+<!--                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
 
-    <div class="section contact" id="contact">
-        <div class="container">
-            <h1 class="mt-3"><span class="text-danger">Contactos</span> </h1>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="contact-info-card">
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-mobile icon-md"></i>
-                            </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline">Telefone : <br> <span class="text-muted">+258 84 5857 656</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-map-alt icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Endereço :<br> <span class="text-muted">Av. Milagre Mabote, Maxaquene "A".</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-envelope icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">franciscotamelle@gmail.com</span></h6>
-                            </div>
-                        </div>
-                        <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
+<!--        </div>-->
+<!--    </div>-->
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">
